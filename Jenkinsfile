@@ -19,9 +19,7 @@ pipeline {
     stages {
         stage('build code') {
             steps {
-                sh '''#!/bin/bash
-                    go build main.go
-                '''
+                sh 'echo "ssss"'
             }
         }
     }
